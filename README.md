@@ -26,3 +26,7 @@ It is nothing but a human need to understand how something works before we gain 
 
 
 
+**Bonus code:** SHAP (SHapley Additive exPlanations) was introduced in 2017 by Lundberg and Lee and has been widely used by data scientists to explain predictive models through computing the contribution of each feature to a prediction. The SHAP summary plot is an interesting plot which shows both contribution of a feature in a prediction and its directionality (how it moves the target needle). 
+
+Notebook: Converting insights from a SHAP summary plot.ipynb has an implementation with which all valuable insights from a SHAP summary plot into a data structure (e.g., pandas DataFrame) which allows to better explain predictive models.
+
